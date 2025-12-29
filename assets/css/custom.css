@@ -149,21 +149,10 @@ article ul {
   width: 100%;
 }
 
-/* 水平分割线统一宽度 */
+/* 水平分割线样式 */
 hr {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  width: 100% !important;
-  max-width: 100% !important;
   border: 0;
-  border-top: 1px solid #ddd;
-}
-
-/* footer 的分割线也统一 */
-footer hr {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  width: 100% !important;
+  border-top: 1px solid #000;
 }
 
 /* 响应式调整 */
