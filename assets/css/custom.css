@@ -171,12 +171,21 @@ footer.page-footer hr {
 
 /* 脚注字号调整 - 比正文小 */
 .footnotes {
-  font-size: 0.95rem;
+  font-size: 0.95rem !important;
+}
+
+.footnotes ol {
+  font-size: 0.95rem !important;
 }
 
 .footnotes ol li {
-  font-size: 0.95rem;
-  line-height: 1.7;
+  font-size: 0.95rem !important;
+  line-height: 1.7 !important;
+}
+
+.footnotes ol li p {
+  font-size: 0.95rem !important;
+  line-height: 1.7 !important;
 }
 
 /* 响应式调整 */
