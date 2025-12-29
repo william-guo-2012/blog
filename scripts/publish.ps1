@@ -48,14 +48,8 @@ if ($confirm -ne 'y') {
 Write-Host "`n正在添加更改..." -ForegroundColor Cyan
 git add -A
 
-# 构建完整的提交信息
-$fullMessage = @"
-$Message
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>
-"@
+# 构建完整的提交信息（使用数组拼接避免 heredoc 问题）
+$fullMessage = $Message + "`n`n" + "🤖 Generated with [Claude Code](https://claude.com/claude-code)`n`n" + "Co-Authored-By: Claude Sonnet 4.5 " + "<" + "noreply@anthropic.com" + ">"
 
 # 提交
 Write-Host "正在提交..." -ForegroundColor Cyan
