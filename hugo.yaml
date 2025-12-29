@@ -6,7 +6,7 @@ languageCode: zh-CN
 hasCJKLanguage: true
 
 # 网站基本信息
-baseurl: "https://example.org/"  # 稍后替换为你的实际域名
+baseurl: "https://william-guo-2012.github.io/blog/"
 title: "我的博客"
 canonifyurls: true
 
