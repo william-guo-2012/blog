@@ -187,4 +187,9 @@ footer.page-footer hr {
   footer.page-footer {
     width: 90% !important;
   }
+
+  /* 脚注宽度与正文保持一致 */
+  .footnotes ol {
+    width: 90% !important;
+  }
 }
