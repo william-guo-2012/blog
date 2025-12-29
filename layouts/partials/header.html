@@ -37,4 +37,9 @@
 <link rel="stylesheet" href="{{ $ht_o_style.Permalink | relURL }}">
 
 <link rel="stylesheet" href="{{ "/css/hugo-tufte-override.css" | relURL }}">
+
+{{ $custom := resources.Get "css/custom.css" }}
+{{ if $custom }}
+<link rel="stylesheet" href="{{ $custom.Permalink | relURL }}">
+{{ end }}
 </head>
