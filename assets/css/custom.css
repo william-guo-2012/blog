@@ -169,6 +169,16 @@ footer.page-footer hr {
   width: 100% !important;
 }
 
+/* 脚注字号调整 - 比正文小 */
+.footnotes {
+  font-size: 0.95rem;
+}
+
+.footnotes ol li {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
 /* 响应式调整 */
 @media (max-width: 760px) {
   body {
