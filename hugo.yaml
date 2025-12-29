@@ -1,0 +1,82 @@
+# Hugo-Tufte 主题配置
+theme: hugo-tufte
+
+# 语言设置
+languageCode: zh-CN
+hasCJKLanguage: true
+
+# 网站基本信息
+baseurl: "https://example.org/"  # 稍后替换为你的实际域名
+title: "我的博客"
+canonifyurls: true
+
+# 首页文章数量
+pagination:
+  pagerSize: 10
+
+# Markdown 和代码高亮设置
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    guessSyntax: true
+
+# 主题参数
+params:
+  subtitle: ""
+  favicon: "./favicon.ico"
+  touchicon: "./touch-icon.png"
+
+  # 代码块样式 (参考 Dan Wang 的简洁风格)
+  codeblocksdark: false
+
+  # 边注标记
+  marginNoteInd: "⊕"
+
+  # 版权信息
+  showPoweredBy: false
+
+  # 显示设置
+  hidedate: false
+  showSummary: true
+
+  # 数学公式支持
+  math: true
+  KaTeXVersion: 0.16.4
+  KaTeXCDN: "//cdn.jsdelivr.net/npm"
+
+  # 样式设置 (参考 Dan Wang 的排版)
+  sansSubtitle: false
+  centerArticle: true  # 居中文章，更好的阅读体验
+
+  # 社交链接 (根据需要取消注释并填写)
+  # github: your-username
+  # twitter: your-username
+
+# 分类系统
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+
+# 导航菜单
+menu:
+  nav:
+    - name: 首页
+      weight: -110
+      identifier: home
+      url: /
+    - name: 文章
+      weight: -100
+      identifier: posts
+      url: /posts/
+    - name: 分类
+      weight: -90
+      identifier: categories
+      url: /categories/
+    - name: 关于
+      weight: -80
+      identifier: about
+      url: /about/
