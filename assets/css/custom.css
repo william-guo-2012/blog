@@ -74,6 +74,31 @@ article img {
   margin: 1.5rem auto;
 }
 
+/* 列表样式 - 与正文字号相同 */
+article ul,
+article ol {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  margin-bottom: 1.4rem;
+}
+
+article li {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  margin-bottom: 0.5rem;
+}
+
+/* 数字列表宽度优化 - 避免内容换行 */
+article ol {
+  padding-left: 2.5rem;
+  width: 100%;
+}
+
+article ul {
+  padding-left: 2rem;
+  width: 100%;
+}
+
 /* 响应式调整 */
 @media (max-width: 760px) {
   body {
