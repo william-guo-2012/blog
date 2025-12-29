@@ -149,19 +149,14 @@ article ul {
   width: 100%;
 }
 
-/* 水平分割线样式 - 统一宽度和对齐 */
+/* 水平分割线样式 - 与段落和footer宽度保持一致 */
 hr {
   border: 0;
   border-top: 1px solid #000;
   width: 55%;
-  max-width: none;
+  max-width: 55%;
   margin-left: 0;
   margin-right: 0;
-}
-
-/* 脚注区域的水平线保持与脚注内容相同宽度 */
-.footnotes hr {
-  width: 100%;
 }
 
 /* 响应式调整 */
