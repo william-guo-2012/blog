@@ -7,11 +7,14 @@ body {
   line-height: 1.8;
 }
 
-/* 标题字体 */
+/* 标题字体 - 与正文字号相同 */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Palatino", "STSong", "SimSun", serif;
   font-weight: 400;
   line-height: 1.4;
+  font-size: 1.15rem;  /* 与正文字号相同 */
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
 }
 
 /* 正文字号调整 - 参考谢益辉的舒适阅读尺寸 */
@@ -60,6 +63,15 @@ a:hover {
 .marginnote, .sidenote {
   font-size: 0.9rem;
   line-height: 1.6;
+}
+
+/* 图片最大高度限制 */
+article img {
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
 }
 
 /* 响应式调整 */
