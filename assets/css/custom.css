@@ -149,14 +149,14 @@ article ul {
   width: 100%;
 }
 
-/* 水平分割线样式 - 统一宽度 */
+/* 水平分割线样式 - 统一宽度和对齐 */
 hr {
   border: 0;
   border-top: 1px solid #000;
-  max-width: 45rem !important;
-  width: 87.5% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 /* 响应式调整 */
