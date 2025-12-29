@@ -153,10 +153,15 @@ article ul {
 hr {
   border: 0;
   border-top: 1px solid #000;
-  width: 100% !important;
-  max-width: none !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  width: 55%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* 脚注区域的水平线保持与脚注内容相同宽度 */
+.footnotes hr {
+  width: 100%;
 }
 
 /* 响应式调整 */
