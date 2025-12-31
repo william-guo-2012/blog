@@ -189,8 +189,13 @@ footer.page-footer hr {
 }
 
 /* 文章列表页宽度调整 */
-.list-page ul {
-  width: 90% !important;
+.list-page > ul {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.list-page ul ul {
+  width: 100% !important;
   max-width: none !important;
 }
 
