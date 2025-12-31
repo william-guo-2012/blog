@@ -188,6 +188,12 @@ footer.page-footer hr {
   line-height: 1.7 !important;
 }
 
+/* 文章列表页宽度调整 */
+.list-page ul {
+  width: 90% !important;
+  max-width: none !important;
+}
+
 /* 响应式调整 */
 @media (max-width: 760px) {
   body {
