@@ -199,6 +199,11 @@ footer.page-footer hr {
   font-size: 1.4rem;
 }
 
+/* 首页摘要中的 h1 字号调整 */
+.home-page .page-list h1 {
+  font-size: 1.3rem !important;
+}
+
 /* 响应式调整 */
 @media (max-width: 760px) {
   body {
