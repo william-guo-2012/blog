@@ -194,6 +194,11 @@ footer.page-footer hr {
   max-width: none !important;
 }
 
+/* 首页文章标题字号调整 - 比正文 h1 小 */
+.home-page .page-list h2.content-title {
+  font-size: 1.4rem;
+}
+
 /* 响应式调整 */
 @media (max-width: 760px) {
   body {
