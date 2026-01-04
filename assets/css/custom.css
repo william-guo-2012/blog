@@ -227,4 +227,9 @@ footer.page-footer hr {
   .footnotes ol {
     width: 90% !important;
   }
+
+  /* 文章列表页宽度调整 */
+  .list-page ul {
+    width: 100% !important;
+  }
 }
