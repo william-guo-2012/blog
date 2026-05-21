@@ -17,3 +17,7 @@ Thumbs.db
 
 # Local scripts
 /scripts/
+
+# Obsidian vault config (local editor metadata, not part of the site)
+/.obsidian/
+/_templates/
